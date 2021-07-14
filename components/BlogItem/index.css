@@ -1,0 +1,14 @@
+.item-image {
+  object-fit: contain;
+
+  padding: 5px;
+  transition: transform 450ms;
+}
+.item-image:hover {
+  transform: scale(1.08);
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+}

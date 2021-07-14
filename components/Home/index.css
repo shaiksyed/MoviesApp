@@ -1,0 +1,145 @@
+.blog-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  height: vh;
+}
+.main-movie-cont {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.home-image-container {
+  background-image: url('https://i.ibb.co/vzGKrNx/Image-2.png');
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.main-movie-name {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+
+  color: #ffffff;
+  position: absolute;
+  left: 11.39%;
+  right: 57.85%;
+  top: 20.89%;
+  bottom: 78.48%;
+}
+.movie-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+}
+.main-movie-discription {
+  position: absolute;
+  left: 11.39%;
+  right: 57.85%;
+  top: 36.89%;
+  bottom: 78.48%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.play-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+
+  position: absolute;
+  left: 11.39%;
+  right: 57.85%;
+  top: 49.89%;
+  bottom: 88.48%;
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.img-list-cont {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.img-list-cont::-webkit-scrollbar {
+  display: none;
+}
+.head {
+  font-family: HK Grotesk;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 200px;
+  font-style: normal;
+  margin-left: 200px;
+}
+.main-movie-cont {
+  max-height: 40vw;
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 500px;
+  background-size: cover;
+}
+
+.img-movie {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+.movie-title {
+  font-family: HK Grotesk;
+  font-size: 40px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-bottom: 0px;
+}
+
+.movie-para {
+  font-family: HK Grotesk;
+  font-size: 30px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+}
+.button {
+  height: 50px;
+  width: 180px;
+  background-color: #64748b;
+  opacity: 0.5;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  border-width: 0px;
+  margin-right: 20px;
+}
+
+.but-cont {
+  display: flex;
+  flex-direction: row;
+}
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
