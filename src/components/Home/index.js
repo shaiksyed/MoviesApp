@@ -68,10 +68,10 @@ class Home extends Component {
   }
 
   render() {
-    // const jwtToken = Cookies.get('jwt_token')
-    // if (jwtToken === undefined) {
-    //   return <Redirect to="/login" />
-    // }
+    const jwtToken = Cookies.get('jwt_token')
+    if (jwtToken === undefined) {
+      return <Redirect to="/login" />
+    }
 
     const {trendingData, topData, isLoading, movieData} = this.state
 
